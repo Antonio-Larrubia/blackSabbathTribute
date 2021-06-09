@@ -1,0 +1,115 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+	/* font-size: 10px; */
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    box-shadow: 6px 5px 8px 6px rgba(0,0,0,0.1);
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+header nav{
+    display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+
+}
+
+header nav ul li {
+    padding: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.main .band-pic {
+    align-items: center;
+    box-shadow: 6px 9px 8px 6px rgba(0,0,0,0.1);
+}
+
+.main .band-pic img {
+    object-fit: contain;
+    padding: 25px;
+    width: 600px;
+}
+
+.main .bio {
+    overflow: scroll;
+    border: 3px solid black;
+    padding: 30px;
+    margin: 25px 15px;
+    width: 50%;
+    height: auto;
+}
+
+.main .bio p {
+    line-height: 2.0;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    margin-top: 35px;
+}
+
+footer .links ul li {
+    display: inline-block;
+}
+
+footer .links ul li i {
+    font-size: 30px;
+    padding: 20px 35px;
+}
+
+#yt {
+    color: red;
+}
+
+#spotify {
+    color: green;
+}
